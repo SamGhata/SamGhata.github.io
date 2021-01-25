@@ -1,5 +1,5 @@
 # Bootstrap
-## Notes on setup and use of tools and technolgies
+Notes on setup and use of tools and technolgies<br>
 <br>
 Kali<br>
 Git<br>
