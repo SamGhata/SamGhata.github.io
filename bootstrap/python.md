@@ -1,7 +1,7 @@
 # [Bootstrap](https://samghata.github.io/bootstrap)
 
 ## Python
-This little snippet can be added to code for help troubleshooting runtime issues[^1]:
+This little snippet[^1] can be added to code for help troubleshooting runtime issues:
 ```python
 import logging
 import sys
