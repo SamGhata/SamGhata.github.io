@@ -634,3 +634,10 @@ links I have collected to format and disperse on the site later:<br>
 
 * [Home : X-MAS GTF 2020 - X-MAS GTF 2020](https://xmas.htsp.ro/home)
 
+* [Basic Linux Privilege Escalation](http://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
+
+* [Windows Privilege Escalation Fundamentals](http://www.fuzzysecurity.com/tutorials/16.html)
+
+* GitHub: xapax/oscp](https://github.com/xapax/oscp/)
+
+* Metasploit Unleashed - Using Databases](https://www.offensive-security.com/metasploit-unleashed/using-databases/)
