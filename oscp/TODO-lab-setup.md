@@ -1,0 +1,1 @@
+VMware is advised for the virtual machine hosting, as it is the hypervisor supported by Offensive Security if any issues are encountered. It is not a requirement, but [VMware Workstation](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html) is often used by OSCP students.
