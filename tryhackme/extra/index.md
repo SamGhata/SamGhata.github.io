@@ -9,7 +9,6 @@ tbd<br>
 ### Free Rooms Extra Challenges
 <h5 id="LinuxFundamentals1"><a href="https://tryhackme.com/room/linux1">Linux Fundamentals 1</a></h5>
 Don't follow the directions for using the shiba1 binary, but find another way to discover shiba2's password.<br>
-<br>
 <details>
 <summary>Hint 1 (<i>click to expand</i>)</summary>
   
@@ -32,6 +31,7 @@ This is readable by any local user, so shiba1 can <code>cat /etc/shiba/shiba2</c
 </details>
 </details>
 
+<br>
 ### Subscriber Rooms Extra Challenges
 tbd<br>
 <br>
