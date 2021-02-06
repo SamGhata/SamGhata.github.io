@@ -1,4 +1,37 @@
-# TryHackMe Extra Challenges Index
+# TryHackMe Extra Challenges
 
-### Free Rooms
-<a href="https://samghata.github.io/tryhackme/extra/free/index.md#LinuxFundamentals1">Linux Fundamentals 1</a>
+## Free Rooms Index
+<a href="#LinuxFundamentals1">Linux Fundamentals 1</a><br>
+<br>
+## Subscriber Rooms Index
+tbd<br>
+<br>
+### Free Rooms Extra Challenges
+<h5 id="LinuxFundamentals1"><a href="https://tryhackme.com/room/linux1">Linux Fundamentals 1</a></h5>
+Don't follow the directions for using the shiba1 binary, but find another way to discover shiba2's password.<br>
+<br>
+<details>
+<summary>Hint 1 (<i>click to expand</i>)</summary>
+  
+It's a simple reverse engineering task.
+
+<details>
+<summary>Hint 2</summary>
+  
+<a href="https://linux.die.net/man/1/strings">strings</a>
+
+<details>
+<summary>Solution</summary>
+
+Doing <code>strings shiba1</code> and review shows it includes the line "cat /etc/shiba/shiba2".<br>
+<code>ls -al /etc/shiba/shiba2</code> shows the file is:<br>
+-rw-r--r-- 1 root root 9 Feb 13  2020 /etc/shiba/shiba2<br>
+This is readable by any local user, so shiba1 can <code>cat /etc/shiba/shiba2</code> for the password.<br>
+      
+</details>
+</details>
+</details>
+<br>
+### Subscriber Rooms Extra Challenges
+tbd<br>
+<br>
