@@ -3,7 +3,7 @@ click on your Profile picture (top right) and choose Access from the menu or
 navigate directly to https://tryhackme.com/access<br>
 
 Choose a VPN server closest to you and click Download My Configuration File<br>
-<a href=""><img src="https://github.com/SamGhata/SamGhata.github.io/blob/main/tryhackme/images/vpn/01-VPN-config.jpg" alt="VPN config" width="200"/></a><br>
+<a href="https://github.com/SamGhata/SamGhata.github.io/blob/main/tryhackme/images/vpn/01-VPN-config.jpg"><img src="https://github.com/SamGhata/SamGhata.github.io/blob/main/tryhackme/images/vpn/01-VPN-config.jpg" alt="VPN config" width="200"/></a><br>
 <br>
 Launch the Kali GUI Connections dialog (beside current time in toolbar) and choose VPN Connections > Add a VPN connection<br>
 <a href=""><img src="drawing.jpg" alt="drawing" width="200"/></a><br>
