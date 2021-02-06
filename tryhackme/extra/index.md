@@ -31,7 +31,7 @@ This is readable by any local user, so shiba1 can <code>cat /etc/shiba/shiba2</c
 </details>
 </details>
 </details>
-<br>
+
 ### Subscriber Rooms Extra Challenges
 tbd<br>
 <br>
