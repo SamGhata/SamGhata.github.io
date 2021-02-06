@@ -1,7 +1,7 @@
 # TryHackMe Free Rooms Extra Challenges
 
-### [Linux Fundamentals 1](https://tryhackme.com/room/linux1) {#LinuxFundamentals1}
-Extra Challenge:<br>
+### Linux Fundamentals 1 {#LinuxFundamentals1}
+[Extra Challenge](https://tryhackme.com/room/linux1):<br>
 Don't follow the directions for using the shiba1 binary, but find another way to discover shiba2's password.<br>
 
 <details>
