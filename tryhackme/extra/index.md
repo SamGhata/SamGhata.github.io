@@ -38,7 +38,7 @@ The Room is meant to be finished by rooting the box, though both flags can be fo
 <details>
 <summary>Hint 1 (<i>click to expand</i>)</summary>
   
-Check the flag formats/masks and the Room tags. Tags are sometimes easier to see by doing a [search](https://tryhackme.com/hacktivities?tab=search) for the Room name and looking at the preview in results.
+Check the flag formats/masks and the Room tags. Tags are sometimes easier to see by doing a <a href="https://tryhackme.com/hacktivities?tab=search">search</a> for the Room name and looking at the preview in results.
 
 <details>
 <summary>Hint 2</summary>
@@ -56,11 +56,11 @@ user.txt:<br>
 <code>grep -sw -E '[[:graph:]]{10}[[:blank:]][[:graph:]]{3}[[:blank:]][[:graph:]]{11}' 11-0.txt</code><br>
 root.txt is a little tricker by this method. Formatting the whole grep expression is an effort, but even with that dilligence it fails.<br>
 However, that also requires learning how to add in checks for the commas, or include the counts in the "graph" portions. Those commas look helpful.<br>
-Attempting only a search for the first portion:
-<code>grep -sw -E '[[:graph:]]{7}[,][[:blank:]][[:graph:]]{7}[,][[:blank:]][[:graph:]]{6}' 11-0.txt</code>
+Attempting only a search for the first portion:<br>
+<code>grep -sw -E '[[:graph:]]{7}[,][[:blank:]][[:graph:]]{7}[,][[:blank:]][[:graph:]]{6}' 11-0.txt</code><br>
 returns a single match, but on a line alone. Adding in the argument to get this line number from the text:<br>
 <code>grep -swn -E '[[:graph:]]{7}[,][[:blank:]][[:graph:]]{7}[,][[:blank:]][[:graph:]]{6}' 11-0.txt</code><br>
-returns 1737 for the line number. Using the [sed](https://linux.die.net/man/1/sed) command to see what is happening in this area of the text:<br>
+returns 1737 for the line number. Using the <a href="https://linux.die.net/man/1/sed">sed</a> command to see what is happening in this area of the text:<br>
 <code>sed '1732,1742!d' 11-0.txt</code><br>
 reveals the two lines, separated from everything else, that can be entered to complete the flag.<br>
       
