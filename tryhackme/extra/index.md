@@ -48,14 +48,13 @@ It is not necessary to Deploy the machine.
 <details>
 <summary>Solution</summary>
 
-The flag formats for Wonderland are very unusual for TryHackMe: they look like sentences or at least some kind of text.<br>
-If you search Project Gutenberg you can find a text-only format of Alice in Wonderland to copy local with:<br>
+The flag formats for Wonderland are very unusual for TryHackMe: they look like sentences or at least some kind of text. If you search Project Gutenberg, you can find a text-only format of Alice in Wonderland to copy local with:<br>
 <code>wget http://www.gutenberg.org/files/11/11-0.txt</code><br>
 Now we have the full text and <a href="https://www.gnu.org/software/grep/manual/grep.html#Introduction">grep</a> to search it.<br>
 user.txt:<br>
 <code>grep -sw -E '[[:graph:]]{10}[[:blank:]][[:graph:]]{3}[[:blank:]][[:graph:]]{11}' 11-0.txt</code><br>
-root.txt is a little tricker by this method. Formatting the whole grep expression is an effort, but even with that dilligence it fails.<br>
-However, that also requires learning how to add in checks for the commas, or include the counts in the "graph" portions. Those commas look helpful.<br>
+<br>
+root.txt is a little tricker by this method. Formatting the whole grep expression is an effort, but even with that dilligence it fails. However, that also requires learning how to add in checks for the commas, or include the counts in the "graph" portions. Those commas look helpful.<br>
 Attempting only a search for the first portion:<br>
 <code>grep -sw -E '[[:graph:]]{7}[,][[:blank:]][[:graph:]]{7}[,][[:blank:]][[:graph:]]{6}' 11-0.txt</code><br>
 returns a single match, but on a line alone. Adding in the argument to get this line number from the text:<br>
