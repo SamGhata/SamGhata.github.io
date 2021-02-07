@@ -8,7 +8,7 @@
 tbd<br>
 <br>
 ### Free Rooms Extra Challenges
-<h5 id="LinuxFundamentals1"><a href="https://tryhackme.com/room/linux1">Linux Fundamentals 1</a></h5>
+<h4 id="LinuxFundamentals1"><a href="https://tryhackme.com/room/linux1">Linux Fundamentals 1</a></h4>
 Don't follow the directions for using the shiba1 binary, but find another way to discover shiba2's password.<br>
 <details>
 <summary>Hint 1 (<i>click to expand</i>)</summary>
@@ -33,7 +33,7 @@ This is readable by any local user, so shiba1 can <code>cat /etc/shiba/shiba2</c
 </details>
 
 <br>
-<h5 id="Wonderland"><a href="https://tryhackme.com/room/wonderland">Wonderland</a></h5>
+<h4 id="Wonderland"><a href="https://tryhackme.com/room/wonderland">Wonderland</a></h4>
 The Room is meant to be finished by rooting the box, though both flags can be found with a different method.<br>
 <details>
 <summary>Hint 1 (<i>click to expand</i>)</summary>
