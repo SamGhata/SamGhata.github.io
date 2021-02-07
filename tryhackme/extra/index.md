@@ -24,9 +24,9 @@ It's a simple reverse engineering task.
 <summary>Solution</summary>
 
 Doing <code>strings shiba1</code> and review shows it includes the line "cat /etc/shiba/shiba2".<br>
-<code>ls -al /etc/shiba/shiba2</code> shows the file is:<br>
+<code class="language-plaintext highlighter-rouge">ls -al /etc/shiba/shiba2</code> shows the file is:<br>
 -rw-r--r-- 1 root root 9 Feb 13  2020 /etc/shiba/shiba2<br>
-This is readable by any local user, so shiba1 can <code>cat /etc/shiba/shiba2</code> for the password.<br>
+This is readable by any local user, so shiba1 can <code class="language-plaintext highlighter-rouge">cat /etc/shiba/shiba2</code> for the password.<br>
       
 </details>
 </details>
@@ -52,15 +52,15 @@ The flag formats for Wonderland are very unusual for TryHackMe: they look like s
 <code>wget http://www.gutenberg.org/files/11/11-0.txt</code><br>
 Now we have the full text and <a href="https://www.gnu.org/software/grep/manual/grep.html#Introduction">grep</a> to search it.<br>
 user.txt:<br>
-<code>grep -sw -E '[[:graph:]]{10}[[:blank:]][[:graph:]]{3}[[:blank:]][[:graph:]]{11}' 11-0.txt</code><br>
+<code class="language-plaintext highlighter-rouge">grep -sw -E '[[:graph:]]{10}[[:blank:]][[:graph:]]{3}[[:blank:]][[:graph:]]{11}' 11-0.txt</code><br>
 <br>
 root.txt is a little tricker by this method. Formatting the whole grep expression is an effort, but even with that dilligence it fails. However, that also requires learning how to add in checks for the commas, or include the counts in the "graph" portions. Those commas look helpful.<br>
 Attempting only a search for the first portion:<br>
-<code>grep -sw -E '[[:graph:]]{7}[,][[:blank:]][[:graph:]]{7}[,][[:blank:]][[:graph:]]{6}' 11-0.txt</code><br>
+<code class="language-plaintext highlighter-rouge">grep -sw -E '[[:graph:]]{7}[,][[:blank:]][[:graph:]]{7}[,][[:blank:]][[:graph:]]{6}' 11-0.txt</code><br>
 returns a single match, but on a line alone. Adding in the argument to get this line number from the text:<br>
-<code>grep -swn -E '[[:graph:]]{7}[,][[:blank:]][[:graph:]]{7}[,][[:blank:]][[:graph:]]{6}' 11-0.txt</code><br>
+<code class="language-plaintext highlighter-rouge">grep -swn -E '[[:graph:]]{7}[,][[:blank:]][[:graph:]]{7}[,][[:blank:]][[:graph:]]{6}' 11-0.txt</code><br>
 returns 1737 for the line number. Using the <a href="https://linux.die.net/man/1/sed">sed</a> command to see what is happening in this area of the text:<br>
-<code>sed '1732,1742!d' 11-0.txt</code><br>
+<code class="language-plaintext highlighter-rouge">sed '1732,1742!d' 11-0.txt</code><br>
 reveals the two lines, separated from everything else, that can be entered to complete the flag.<br>
       
 </details>
@@ -79,10 +79,10 @@ A previous version of the machine allowed full sudo in the web command portal. T
 extra credit - get shell on box<br>
 all work done through web command portal<br>
 <br>
-sudo mkdir /root/.ssh<br>
-sudo ssh-keygen -f /root/.ssh/id_rsa -t rsa -b 2048<br>
-sudo cp /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys<br>
-sudo less /root/.ssh/id_rsa (copy/paste to text editor and save local)<br>
+`sudo mkdir /root/.ssh`<br>
+`sudo ssh-keygen -f /root/.ssh/id_rsa -t rsa -b 2048`<br>
+`sudo cp /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys`<br>
+`sudo less /root/.ssh/id_rsa` (copy/paste to text editor and save local)<br>
 <br>
 on local: `chmod 600 id_rsa`<br>
 login as: `ssh -i id_rsa root@$target`<br>
