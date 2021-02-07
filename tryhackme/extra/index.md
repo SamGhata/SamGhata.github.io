@@ -83,6 +83,7 @@ sudo mkdir /root/.ssh<br>
 sudo ssh-keygen -f /root/.ssh/id_rsa -t rsa -b 2048<br>
 sudo cp /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys<br>
 sudo less /root/.ssh/id_rsa (copy/paste to text editor and save local)<br>
-login as:<br>
-ssh -i id_rsa root@$target<br>
+<br>
+on local: `chmod 600 id_rsa`<br>
+login as: `ssh -i id_rsa root@$target`<br>
 <br>
