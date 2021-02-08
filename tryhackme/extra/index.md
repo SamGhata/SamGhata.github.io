@@ -24,7 +24,7 @@ It's a simple reverse engineering task.
 <details>
 <summary>Solution</summary>
 
-Doing <code>strings shiba1</code> and review shows it includes the line "cat /etc/shiba/shiba2".<br>
+Doing <code class="language-plaintext highlighter-rouge">strings shiba1</code> and review shows it includes the line "cat /etc/shiba/shiba2".<br>
 <code class="language-plaintext highlighter-rouge">ls -al /etc/shiba/shiba2</code> shows the file is:<br>
 -rw-r--r-- 1 root root 9 Feb 13  2020 /etc/shiba/shiba2<br>
 This is readable by any local user, so shiba1 can <code class="language-plaintext highlighter-rouge">cat /etc/shiba/shiba2</code> for the password.<br>
