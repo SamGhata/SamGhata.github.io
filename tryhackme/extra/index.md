@@ -80,7 +80,7 @@ It is not necessary to Deploy the machine.
 <summary>Solution</summary>
 
 The flag formats for Wonderland are very unusual for TryHackMe: they look like sentences or at least some kind of text. If you search Project Gutenberg, you can find a text-only format of Alice in Wonderland to copy local with:<br>
-<code>wget http://www.gutenberg.org/files/11/11-0.txt</code><br>
+<code class="language-plaintext highlighter-rouge">wget http://www.gutenberg.org/files/11/11-0.txt</code><br>
 Now we have the full text and <a href="https://www.gnu.org/software/grep/manual/grep.html#Introduction">grep</a> to search it.<br>
 user.txt:<br>
 <code class="language-plaintext highlighter-rouge">grep -sw -E '[[:graph:]]{10}[[:blank:]][[:graph:]]{3}[[:blank:]][[:graph:]]{11}' 11-0.txt</code><br>
