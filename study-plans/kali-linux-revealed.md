@@ -1,7 +1,7 @@
 # Beginner Kali Linux (Study Plan, week 1/3)  
 Free Kali Linux Revealed book at [Offensive Security](https://kali.training/) as [PDF](https://kali.training/downloads/Kali-Linux-Revealed-2021-edition.pdf)  
 
-## Day 1  
+### Day 1  
 #### TOC, Preface, Forward
 pages I-XXIII  
   
