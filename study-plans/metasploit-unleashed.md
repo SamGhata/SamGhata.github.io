@@ -105,19 +105,34 @@ PDF pages 269-281
 Sections *Armitage* through *Armitage Post Exploitation*  
 PDF pages 282-292  
 
+## Note - remaining sections are references
+
 **Day 27**  
-Sections ** through **  
-PDF pages -  
+Section *Post Module Reference*  
+PDF pages 293-308  
 
 **Day 28**  
-Sections ** through **  
-PDF pages -  
+Sections *Auxillary Module Reference* through *Admin VMware Auxillary Modules*  
+PDF pages 309-318  
 
 **Day 29**  
-Sections ** through **  
-PDF pages -  
+Sections *Scanner DCERPC Auxiliary Modules* through *Scanner FTP Auxillary Modules*  
+PDF pages 319-327  
 
 **Day 30**  
-Sections ** through **  
-PDF pages -  
+Sections *Scanner HTTP Auxillary Modules* through *Scanner MSSQL Auxillary Modules*  
+PDF pages 328-338  
+
+
+**Day 31**  
+Sections *Scanner IMAP Auxillary Modules* through *Scanner SMB Auxillary Modules*  
+PDF pages 339-352  
+
+**Day 32**  
+Sections *Scanner SMTP Auxillary Modules* through *Scanner VMware Auxillary Modules*  
+PDF pages 353-363  
+
+**Day 33**  
+Sections *Scanner VNC Auxillary Modules* through *Recent Changes to Metasploit Unleashed*  
+PDF pages 364-370  
 
