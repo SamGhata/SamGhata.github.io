@@ -118,17 +118,17 @@ Bug Reports
 
 ### Day 4  
 **Chapter 8**  
-*pages 187-200  
+*pages 187-200*  
 Intermediate Package Interaction  
 
 ### Day 5  
 **Chapter 8**  
-*pages 200-210  
+*pages 200-210*  
 Advanced APT  
 
 ### Day 6  
 **Chapter 8**  
-*pages 210-222)  
+*pages 210-222*  
 APT Package Reference  
 
 
@@ -137,28 +137,28 @@ Free Kali Linux Revealed book at [Offensive Security](https://kali.training/) as
 
 ### Day 7  
 **Chapter 9**  
-*pages 226-237  
+*pages 226-237*  
 Modifying Kali Packages  
 
 ### Day 8  
 **Chapter 9**  
-*pages 237-245  
+*pages 237-245*  
 Recompiling the Linux Kernel  
 
 ### Day 9  
 **Chapter 9**  
-*pages 246-255  
+*pages 246-255*  
 Live USB Persistence  
 Summary  
 
 ### Day 10  
 **Chapter 10**  
-*pages 256-268  
+*pages 256-268*  
 PXE Boot  
 Configuration Management  
 
 ### Day 11  
 **Chapter 10**  
-*pages 268-281  
+*pages 268-281*  
 Extending and Customizing Kali Linux  
 Summary  
