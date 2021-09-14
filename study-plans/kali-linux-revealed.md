@@ -7,7 +7,7 @@ pages I-XXIII
   
 
 #### Day 2  
-==Chapter 1** *pages 0-11*  
+**Chapter 1** *pages 0-11*  
 About Kali Linux  
 
 ## Day 3  
