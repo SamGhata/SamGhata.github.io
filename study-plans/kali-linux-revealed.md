@@ -11,16 +11,19 @@ Free Kali Linux Revealed book at [Offensive Security](https://kali.training/) as
 About Kali Linux  
 
 ### Day 3  
-#### Chapter 2, pages 12-23  
+**Chapter 2**  
+*pages 12-23*  
 Downloading Kali  
 
 ### Day 4  
-#### Chapter 2, pages 24-37  
+**Chapter 2**  
+*pages 24-37*  
 Live Mode  
 VirtualBox  
 
 ### Day 5  
-#### Chapter 2, pages 37-45  
+**Chapter 2**  
+*pages 37-45*  
 VMware Workstation  
 Summary  
 
