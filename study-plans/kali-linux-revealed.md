@@ -77,8 +77,7 @@ Chapter 11, pages 282-292
 Introduction to Security Assessments  
 
 Day 15  
-Chapter 11, pages 292-307  
-Chapter 12, pages 304-307  
+Chapters 11-12, pages 292-307  
 Types of Assessments  
 Conclusion  
 
