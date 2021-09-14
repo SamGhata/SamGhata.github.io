@@ -14,70 +14,70 @@ Section *MSFCONSOLE Commands*
 PDF pages 19-31  
 
 **Day 4**  
+Sections *Exploits* through *Generating Payloads*  
+PDF pages 32-43  
+
+**Day 5**  
+Sections *Databases* through *Meterpreter*  
+PDF pages 44-55  
+
+**Day 6**  
+Sections *Meterpreter Basics* through *Information Gathering*  
+PDF pages 56-65  
+
+**Day 7**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 8**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 9**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 10**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 11**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 12**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 13**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 14**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 15**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 16**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 17**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 18**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 19**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
+**Day 20**  
 Sections ** through **  
 PDF pages -  
 
