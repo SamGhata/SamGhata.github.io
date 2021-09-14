@@ -1,6 +1,7 @@
 [website](https://www.offensive-security.com/metasploit-unleashed/)  
 [PDF](https://raw.githubusercontent.com/rewardone/OSCPRepo/master/PDFs%26Documents/Kali_%26_Metasploit/Metasploit-Unleashed_Combined.pdf)  
 
+# Week 1
 **Day 1**  
 Sections *Metasploit Unleashed* through *Modules and Locations*  
 PDF pages 1-10  
@@ -21,6 +22,7 @@ PDF pages 32-43
 Sections *Databases* through *Meterpreter*  
 PDF pages 44-55  
 
+# Week 2
 **Day 6**  
 Sections *Meterpreter Basics* through *Information Gathering*  
 PDF pages 56-65  
@@ -41,6 +43,7 @@ PDF pages 88-100
 Sections *Writing a Simple Fuzzer* through *Exploit Payloads*  
 PDF pages 101-113  
 
+# Week 3
 **Day 11**  
 Sections *MSFvenom* through *MSFencode*  
 PDF pages 114-123  
@@ -61,6 +64,7 @@ PDF pages 146-155
 Sections *Skeleton Creation* through *Final Exploit*  
 PDF pages 156-165  
 
+# Week 4
 **Day 16**  
 Sections *Client Side Attacks* through *VBScript Infection Methods*  
 PDF pages 166-175  
@@ -81,6 +85,7 @@ PDF pages 199-210
 Sections *Meterpreter Scripting* through *Useful Functions*  
 PDF pages 211-220  
 
+# Week 5
 **Day 21**  
 Sections *Maintaining Access* through *MSF Extended Usage*  
 PDF pages 221-231  
@@ -105,7 +110,8 @@ PDF pages 269-281
 Sections *Armitage* through *Armitage Post Exploitation*  
 PDF pages 282-292  
 
-## Note - remaining sections are references
+# Week 6
+Note - remaining sections are references
 
 **Day 27**  
 Section *Post Module Reference*  
