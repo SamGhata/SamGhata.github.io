@@ -2,25 +2,25 @@
 Free Kali Linux Revealed book at [Offensive Security](https://kali.training/) as [PDF](https://kali.training/downloads/Kali-Linux-Revealed-2021-edition.pdf)  
 
 ## Day 1  
-### TOC, Preface, Forward
+#### TOC, Preface, Forward
 pages I-XXIII  
   
 
 ## Day 2  
-Chapter 1, pages 0-11  
+#### Chapter 1, pages 0-11  
 About Kali Linux  
 
 ## Day 3  
-Chapter 2, pages 12-23  
+#### Chapter 2, pages 12-23  
 Downloading Kali  
 
 ## Day 4  
-Chapter 2, pages 24-37  
+#### Chapter 2, pages 24-37  
 Live Mode  
 VirtualBox  
 
 ## Day 5  
-Chapter 2, pages 37-45  
+#### Chapter 2, pages 37-45  
 VMware Workstation  
 Summary  
 
