@@ -2,8 +2,9 @@
 Free Kali Linux Revealed book at [Offensive Security](https://kali.training/) as [PDF](https://kali.training/downloads/Kali-Linux-Revealed-2021-edition.pdf)  
 
 ## Day 1  
+### TOC, Preface, Forward
 pages I-XXIII  
-TOC, Preface, Forward  
+  
 
 ## Day 2  
 Chapter 1, pages 0-11  
