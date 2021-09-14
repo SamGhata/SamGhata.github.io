@@ -54,70 +54,70 @@ Sections *Using the Egghunter Mixin* through *Porting Exploits*
 PDF pages 134-145  
 
 **Day 14**  
-Sections *Web App Exploit Dev* through **  
-PDF pages 146-  
+Sections *Web App Exploit Dev* through *Analyzing the Exploit*  
+PDF pages 146-155  
 
 **Day 15**  
-Sections ** through **  
-PDF pages -  
+Sections *Skeleton Creation* through *Final Exploit*  
+PDF pages 156-165  
 
 **Day 16**  
-Sections ** through **  
-PDF pages -  
+Sections *Client Side Attacks* through *VBScript Infection Methods*  
+PDF pages 166-175  
 
 **Day 17**  
-Sections ** through **  
-PDF pages -  
+Sections *MAF Post Exploitation* through *Persistent Netcat Backdoor*  
+PDF pages 176-187  
 
 **Day 18**  
-Sections ** through **  
-PDF pages -  
+Sections *Enabling Remote Desktop* through *Portfwd*  
+PDF pages 188-198  
 
 **Day 19**  
-Sections ** through **  
-PDF pages -  
+Sections *TimeStomp* through *John the Ripper*  
+PDF pages 199-210  
 
 **Day 20**  
+Sections *Meterpreter Scripting* through *Useful Functions*  
+PDF pages 211-220  
+
+**Day 21**  
+Sections *Maintaining Access* through *MSF Extended Usage*  
+PDF pages 221-231  
+
+**Day 22**  
+Sections *Mimikatz* through *Karmetasploit Attack Analysis*  
+PDF pages 232-244  
+
+**Day 23**  
+Sections *MSF vs OS X* through *Building a Module*  
+PDF pages 245-256  
+
+**Day 24**  
+Sections *Payloads through MSSQL* through *MSF Community Edition*  
+PDF pages 257-268  
+
+**Day 25**  
+Sections *MSF Community: Scanning* through *MSF Community: Post Exploitation*  
+PDF pages 269-281  
+
+**Day 26**  
+Sections *Armitage* through *Armitage Post Exploitation*  
+PDF pages 282-292  
+
+**Day 27**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 28**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
+**Day 29**  
 Sections ** through **  
 PDF pages -  
 
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
-Sections ** through **  
-PDF pages -  
-
-**Day **  
+**Day 30**  
 Sections ** through **  
 PDF pages -  
 
