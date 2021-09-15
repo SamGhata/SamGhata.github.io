@@ -43,11 +43,13 @@ create an original Python program using techniques from this week's lessons
 ### Day 6  
 **Chapter 2**  
 *pages 39-49*  
-Topics  
+Flow Control Statements  
+Importing Modules  
+Ending a Program Early with the `sys.exit()` Function  
 
 ### Day 7  
-**Chapter B**  
-*pages C-D*  
+**Chapter 2**  
+*pages 49-56*  
 Topics  
 
 ### Day 8  
