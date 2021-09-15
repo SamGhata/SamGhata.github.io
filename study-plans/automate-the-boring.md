@@ -5,6 +5,7 @@ This outline applies to the text *Automate the Boring Stuff with Python (2nd Edi
 **TOC, Acknowledgements, Introduction**  
 *pages i-xxxix*  
 download and install Python  
+final project planning
 
 ### Day 2  
 **Chapter 1**  
@@ -34,14 +35,14 @@ Program Execution
 
 ### Day 5  
 **Chapter 2**  
-*pages 28-47*  
+*pages 28-38*  
 Flow Control Statements  
 create an original Python program using techniques from this week's lessons
 
 # Automate the Boring Stuff with Python (Study Plan, week 2/Y)  
 ### Day 6  
-**Chapter B**  
-*pages C-D*  
+**Chapter 2**  
+*pages 39-49*  
 Topics  
 
 ### Day 7  
@@ -63,6 +64,7 @@ Topics
 **Chapter B**  
 *pages C-D*  
 Topics  
+create an original Python program using techniques from this week's lessons  
 
 # Automate the Boring Stuff with Python (Study Plan, week 3/Y)  
 ### Day A  
@@ -89,6 +91,7 @@ Topics
 **Chapter B**  
 *pages C-D*  
 Topics  
+create an original Python program using techniques from this week's lessons  
 
 # Automate the Boring Stuff with Python (Study Plan, week 4/Y)  
 ### Day A  
@@ -115,6 +118,7 @@ Topics
 **Chapter B**  
 *pages C-D*  
 Topics  
+create an original Python program using techniques from this week's lessons  
 
 # Automate the Boring Stuff with Python (Study Plan, week 5/Y)  
 ### Day A  
@@ -141,6 +145,8 @@ Topics
 **Chapter B**  
 *pages C-D*  
 Topics  
+create an original Python program using techniques from this week's lessons  
+final project updates  
 
 # Automate the Boring Stuff with Python (Study Plan, week 6/Y)  
 ### Day A  
@@ -167,6 +173,7 @@ Topics
 **Chapter B**  
 *pages C-D*  
 Topics  
+create an original Python program using techniques from this week's lessons  
 
 # Automate the Boring Stuff with Python (Study Plan, week 7/Y)  
 ### Day A  
@@ -193,6 +200,7 @@ Topics
 **Chapter B**  
 *pages C-D*  
 Topics  
+create an original Python program using techniques from this week's lessons  
 
 # Automate the Boring Stuff with Python (Study Plan, week 8/Y)  
 ### Day A  
@@ -219,6 +227,7 @@ Topics
 **Chapter B**  
 *pages C-D*  
 Topics  
+create an original Python program using techniques from this week's lessons  
 
 # Automate the Boring Stuff with Python (Study Plan, week 9/Y)  
 ### Day A  
@@ -245,6 +254,7 @@ Topics
 **Chapter B**  
 *pages C-D*  
 Topics  
+create an original Python program using techniques from this week's lessons  
 
 # Automate the Boring Stuff with Python (Study Plan, week 10/Y)  
 ### Day A  
@@ -271,6 +281,8 @@ Topics
 **Chapter B**  
 *pages C-D*  
 Topics  
+final project sharing  
+
 
 
 
