@@ -2,29 +2,41 @@ This outline applies to the text *Automate the Boring Stuff with Python (2nd Edi
 
 # Automate the Boring Stuff with Python (Study Plan, week 1/Y)  
 ### Day 1  
-**Chapter B**  
-*pages C-D*  
-Topics  
+**TOC, Acknowledgements, Introduction**  
+*pages i-xxxix*  
+download and install Python  
 
 ### Day 2  
-**Chapter B**  
-*pages C-D*  
-Topics  
+**Chapter 1**  
+*pages 1-11*  
+Entering Expressions into the Interactive Shell  
+The Integer, Floating-Point, and String Data Types  
+String Concatenation and Replication  
+Storing Values in Variables  
 
 ### Day 3  
-**Chapter B**  
-*pages C-D*  
-Topics  
+**Chapter 1**  
+*pages 11-20*  
+Your First Program  
+Dissecting Your Program  
+Summary  
+Practice Questions  
 
 ### Day 4  
-**Chapter B**  
-*pages C-D*  
-Topics  
+**Chapter 2**  
+*pages 21-28*  
+Boolean Values  
+Comparison Operators  
+Boolean Operators  
+Mixing Boolean and Comparison Operators  
+Elements of Flow Control  
+Program Execution  
 
 ### Day 5  
-**Chapter B**  
-*pages C-D*  
-Topics  
+**Chapter 2**  
+*pages 28-47*  
+Flow Control Statements  
+create an original Python program using techniques from this week's lessons
 
 # Automate the Boring Stuff with Python (Study Plan, week 2/Y)  
 ### Day 6  
