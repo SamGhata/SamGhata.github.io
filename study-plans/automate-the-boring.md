@@ -50,11 +50,14 @@ Ending a Program Early with the `sys.exit()` Function
 ### Day 7  
 **Chapter 2**  
 *pages 49-56*  
-Topics  
+A Short Program: Guess the Number  
+A Short Program: Rock, Paper, Scissors  
+Summary  
+Practice Questions  
 
 ### Day 8  
-**Chapter B**  
-*pages C-D*  
+**Chapter 3**  
+*pages 57-D*  
 Topics  
 
 ### Day 9  
