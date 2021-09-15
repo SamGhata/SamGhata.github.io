@@ -92,6 +92,7 @@ Topics
 *pages C-D*  
 Topics  
 create an original Python program using techniques from this week's lessons  
+final project updates  
 
 # Automate the Boring Stuff with Python (Study Plan, week 4/Y)  
 ### Day A  
@@ -201,6 +202,7 @@ Topics
 *pages C-D*  
 Topics  
 create an original Python program using techniques from this week's lessons  
+final project updates  
 
 # Automate the Boring Stuff with Python (Study Plan, week 8/Y)  
 ### Day A  
