@@ -34,11 +34,11 @@ while read l; do
   echo "$l" >> $log
   servernum=$(echo $l | cut -d ")" -f 1)
   speedtest --server $servernum > $save/result.txt
-  up=$(grep "Download" $save/result.txt)
-  down=$(grep "Upload" $save/result.txt)
-  echo $up
+  down=$(grep "Download" $save/result.txt)
+  up=$(grep "Upload" $save/result.txt)
   echo $down
-  echo "$up" >> $log
+  echo $up
   echo "$down" >> $log
+  echo "$up" >> $log
   echo "-------------------------------------">>$log
 done <$save/serverlist.txt
