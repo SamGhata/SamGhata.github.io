@@ -14,11 +14,11 @@ avup=0
 avdwn=0
 
 # gather servers
-speedtest --list > serverlist.txt
+speedtest --list > $save/serverlist.txt
 # toss line 1
-len=$(wc -l serverlist.txt | cut -d " " -f 1)
+len=$(wc -l $save/serverlist.txt | cut -d " " -f 1)
 ((len=len-1))
-tail -n $len serverlist.txt > list.txt
+tail -n $len $save/serverlist.txt > $save/list.txt
 
 # TODO multifunction, no math on single
 #Choose test:
@@ -26,19 +26,19 @@ tail -n $len serverlist.txt > list.txt
 #2) Multi server
 
 # currently testing top 3 servers returned
-head -n 3 list.txt > serverlist.txt
+head -n 3 $save/list.txt > $save/serverlist.txt
 
 # collect data
 while read l; do
   echo "$l" 
   echo "$l" >> $log
   servernum=$(echo $l | cut -d ")" -f 1)
-  speedtest --server $servernum > result.txt
-  up=$(grep "Download" result.txt)
-  down=$(grep "Upload" result.txt)
+  speedtest --server $servernum > $save/result.txt
+  up=$(grep "Download" $save/result.txt)
+  down=$(grep "Upload" $save/result.txt)
   echo $up
   echo $down
   echo "$up" >> $log
   echo "$down" >> $log
   echo "-------------------------------------">>$log
-done <serverlist.txt
+done <$save/serverlist.txt
