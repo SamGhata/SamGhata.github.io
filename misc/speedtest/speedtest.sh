@@ -4,7 +4,7 @@
 mkdir -p /home/$USER/Documents/speedtest/
 save="/home/$USER/Documents/speedtest"
 now=$(date +%Y-%m-%d_%H-%M-%S)
-log="$save/$now.txt"
+log="$save/$now.log"
 touch $log
 # TODO calc data, display and write to log
 totup=0
