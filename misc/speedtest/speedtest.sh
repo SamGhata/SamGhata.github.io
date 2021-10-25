@@ -2,9 +2,9 @@
 
 # initial values
 mkdir -p /home/$USER/Documents/speedtest/
-path=/home/$USER/Documents/speedtest
+save="/home/$USER/Documents/speedtest"
 now=$(date +%Y-%m-%d_%H-%M-%S)
-log=$path/$now.txt
+log="$save/$now.txt"
 touch $log
 # TODO calc data, display and write to log
 totup=0
