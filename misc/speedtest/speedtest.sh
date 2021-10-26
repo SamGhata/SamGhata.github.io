@@ -34,6 +34,14 @@ while read l; do
   echo "$l" >> $log
   servernum=$(echo $l | cut -d ")" -f 1)
   speedtest --server $servernum > $save/result.txt
+  
+  # TODO need error check here for string "ERROR: No matched servers"
+  # that is followed by the server number. Seen more than once that
+  # the list requested can return a server that is unreachable 
+  # at execution.
+  # If it failed do err outputs and continue to the next test.
+  # Could even grab another server from $save/list.txt
+  
   down=$(grep "Download" $save/result.txt)
   up=$(grep "Upload" $save/result.txt)
   echo $down
